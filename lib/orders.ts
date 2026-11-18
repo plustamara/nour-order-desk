@@ -4,7 +4,7 @@ import {
   type OrderInput,
   type OrderStatus,
   type OrderUpdate,
-} from "../lib/types";
+} from "./types";
 
 
 type Result<T> = { ok: true; data: T } | { ok: false; error: string };
